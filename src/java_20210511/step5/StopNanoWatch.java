@@ -12,17 +12,12 @@ public class StopNanoWatch extends StopWatch{
 	public double getTime() {
 		return (double)(end-start)/1000000000;
 	}
-	public void execute(StopNanoWatch s) {
-		s.start();
+	public void execute() {
+		start();
 		for(long i = 0; i < 30_000_000_000L;i++) {
 			
 		}
-		s.end();
-		System.out.println("경과 시간 : "+s.getTime());
-	}
-	@Override
-	public void execute() {
-		// TODO Auto-generated method stub
-		
+		end();
+		System.out.println("경과 시간 : "+getTime());
 	}
 }

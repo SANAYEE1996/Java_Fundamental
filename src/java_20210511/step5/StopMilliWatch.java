@@ -12,16 +12,13 @@ public class StopMilliWatch extends StopWatch{
 	public double getTime() {
 		return (double)(end-start)/1000;
 	}
-	@Override
+	
 	public void execute() {
-		
-	}
-	public void execute(StopMilliWatch s) {
-		s.start();
+		start();
 		for(long i = 0; i < 30_000_000_000L;i++) {
 			
 		}
-		s.end();
-		System.out.println("경과 시간 : "+s.getTime());
+		end();
+		System.out.println("경과 시간 : "+getTime());
 	}
 }
