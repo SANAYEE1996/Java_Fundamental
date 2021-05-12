@@ -63,10 +63,6 @@ public class ForDemo {
 		System.out.println(cnt);
 		System.out.println(banbok);
 		
-		
-		
-		
-		
 	}
 
 }
