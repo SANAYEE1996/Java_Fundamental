@@ -9,11 +9,11 @@ public class CastingDemo {
 		byte b1 = 129;
 		*/
 		
-		//circuit 발생 , 권장하지 않음.
+		//circuit 발생 , 권장하지 않음. 
 		byte b1 = (byte)129;
 		System.out.println(b1);
 		
-		//cut 발생
+		//cut 발생 
 		int i1 = (int) 129.98;
 		System.out.println(i1);
 		//auto-casting 자동 형변환 발생

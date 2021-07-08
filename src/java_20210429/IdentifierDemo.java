@@ -17,7 +17,7 @@ public class IdentifierDemo {
 		String mother Name = "Michell";		--> 사용불가
 		
 		예약어를 사용할 수 없음.
-		String void = "Empty";				--> 사용불가
+		String void = "Empty";				--> 사용불가 
 		
 		자바는 유니코드를 기본적으로 지원하기 때문에
 		한글도 식별자로 사용가능하지만 안쓰는게 좋음

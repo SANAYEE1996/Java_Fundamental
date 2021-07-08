@@ -15,7 +15,7 @@ public class IfDemo {
 			season = "여름";
 		} else if (month == 9 || month == 10 || month == 11) {
 			season = "가을";
-		} else
+		} else 
 			season = "없는 겨울";
 
 		System.out.println(month+"월은 " + season + "입니다.");

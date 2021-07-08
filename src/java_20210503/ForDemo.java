@@ -1,7 +1,7 @@
 package java_20210503;
 
 public class ForDemo {
-
+ 
 	public static void main(String[] args) {
 		
 		int sum = 0;

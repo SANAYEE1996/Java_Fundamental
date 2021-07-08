@@ -92,7 +92,7 @@ public class Calendar {
 			System.out.println(year + "년 " + month + "월 " + day + "일은 : 토요일");
 			break;
 		}
-
+ 
 	}
 
 	public void print(int year, int month) {

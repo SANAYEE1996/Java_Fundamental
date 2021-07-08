@@ -11,7 +11,7 @@ public class SsnDemo {
 		a3 *= 4;
 		a4 *= 5;
 		a5 *= 6;
-		a6 *= 7;
+		a6 *= 7; 
 		b1 *= 8;
 		b2 *= 9;
 		b3 *= 2;

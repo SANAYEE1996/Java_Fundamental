@@ -12,11 +12,11 @@ public class OperatorDemo {
 		System.out.println(c);
 		
 		c = a-b;
-		System.out.println(c);
+		System.out.println(c); 
 		
-		c = a*b;
+		c = a*b;  
 		System.out.println(c);
-		
+		 
 		c = b/a;
 		System.out.println(c);
 		

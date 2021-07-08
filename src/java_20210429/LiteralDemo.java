@@ -12,7 +12,7 @@ public class LiteralDemo {
 		
 		int a1 = 128;	//10진수 표기법
 		int a2 = 076;	//8진수 표기법
-		int a3 = 0x123;	//16진수 표기법
+		int a3 = 0x123;	//16진수 표기법 
 		int a4 = 0b1110;//2진수 표기법
 		
 		System.out.println(a1 +" "+ a2+ " " + a3 + " " + a4);

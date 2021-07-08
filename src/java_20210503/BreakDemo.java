@@ -1,7 +1,7 @@
 package java_20210503;
 
 public class BreakDemo {
-
+ 
 	public static void main(String[] args) {
 		
 		int sum = 0;
@@ -10,7 +10,7 @@ public class BreakDemo {
 		for(int i = 1; i <= 10 ; i++){
 			if(i == 6)
 				break Name;
-			sum+= i;
+			sum+= i; 
 		}
 		
 		System.out.println("합은 : "+sum);

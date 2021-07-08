@@ -1,5 +1,5 @@
 package java_20210430;
-
+ 
 public class CharLiteralDemo {
 
 	public static void main(String[] args) {
@@ -10,9 +10,9 @@ public class CharLiteralDemo {
 		System.out.println(c1);
 		System.out.println(c2);
 		System.out.println(c3);
-		//char 리터럴 -> 유니코드 표현법
+		//char 리터럴 -> 유니코드 표현법 
 		char c4 = '\ubc15';
-		char c5 = '\uc601';
+		char c5 = '\uc601'; 
 		char c6 = '\uc0c1';
 		
 		System.out.println(c4 + "" +c5+ "" +c6);
